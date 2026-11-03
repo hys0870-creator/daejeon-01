@@ -1,0 +1,15 @@
+# 비밀 정보가 들어갈 수 있는 파일 (GitHub에 올리지 않음)
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets
+secrets/
+secrets.*
+*secret*
+
+# 보안 점검에서 "올리면 안 됨"으로 판정한 파일
+clone_log.txt
+reconnect_log.txt
+*.bat
